@@ -26,6 +26,7 @@ namespace dcUriHelper
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+
                 System.Threading.Thread.Sleep(1000);
             }
         }
